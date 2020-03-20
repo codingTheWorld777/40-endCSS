@@ -1,0 +1,35 @@
+/* https://jsfiddle.net/HK_Nguyen/kjaqbyr2/76/ */
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* .wrapper .layout {
+    padding: 4px 4px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+} */
+
+.wrapper .header {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.wrapper .footer {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.wrapper .right-content {
+    border-right: 120px solid rgba(241, 218, 204, 0.4);
+}
+
+.wrapper .left-content {
+    border-left: 140px solid rgba(241, 218, 204, 0.4);
+}

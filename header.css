@@ -1,0 +1,114 @@
+.taskbar {
+    margin: 0px 0px;
+}
+
+/* first-taskbar */
+.taskbar .first-taskbar {
+    padding: 8px 10px;
+    background-color: black;
+}
+
+.taskbar .first-taskbar, .inf {
+    display: flex;
+}
+
+.taskbar .inf div a:hover {
+    color: purple;
+}
+
+.taskbar .first-taskbar .find-song {
+    margin: 0px 12px;
+}
+
+.taskbar .first-taskbar .find-song button {
+    padding: 4px 16px;
+    background-color: #999;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.taskbar .first-taskbar .find-song input {
+    height: 16px;
+    width: 400px;
+}
+
+.taskbar .inf div a {
+    text-decoration: none;
+    padding: 4px 8px;
+    margin: 4px 20px;
+    color: white;
+}
+
+.taskbar .taskbar-img {
+    height: 25px;
+    width: 70px;
+}
+
+
+/* second-taskbar */
+
+.taskbar .second-taskbar {
+    display: flex;
+    background-color: #DDD;
+    padding: 7px 8px;
+    margin-bottom: 0;
+}
+
+.taskbar .second-taskbar .main-menu {
+    margin: 0px 4px;
+    position: relative;
+    padding: 0px 10px;
+}
+
+.taskbar .second-taskbar div a {
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+.taskbar .second-taskbar .first {
+    margin-right: 16px;
+    padding: 0px 8px;
+    border-right: 1px solid #999;
+}
+
+.taskbar .second-taskbar .first:hover {
+    color: purple;
+    background-color: white;
+}
+
+.taskbar .second-taskbar .main-menu a {
+    color: black;
+}
+
+.taskbar .second-taskbar .main-menu a:hover {
+    color: purple;
+    background-color: white;
+}
+
+.taskbar .second-taskbar .main-menu .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    margin-bottom: 4px;
+}
+
+.taskbar .second-taskbar .main-menu .submenu div a {
+    display: flex;
+    width: 100%;
+    background-color: #DDD;
+    padding: 2px 25px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: black;
+}
+
+.taskbar .second-taskbar .main-menu .submenu div a:hover {
+    color: purple;
+    font-size: 18px;
+    padding: 4px 30px;
+}
+
+.taskbar .second-taskbar .main-menu:hover .submenu {
+    display: block;
+}

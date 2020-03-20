@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.number-1 {
+    margin-bottom: 40px;
+    border-bottom: 1px dotted #DDD;
+}
+
+
+/* #1 */
+
+.first-component {
+    /* background-image: url("https://img.huffingtonpost.com/asset/5c92a4f224000086064dbbf0.jpeg?ops=scalefit_630_noupscale");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: rgb(177, 196, 13);
+    height: 120px;
+    display: flex;
+    margin-bottom: 9px;
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.first-component .song-number {
+    color: white;
+    font-size: 16px;
+    padding: 4px 10px;
+}
+
+.first-component .content-0 {
+    padding: 10px 16px;
+    flex-grow: 1;
+}
+
+.first-component .song-name {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.first-component .singer {
+    font-size: 12px;
+    color: white;
+}
+
+.first-component .view-count {
+    color: white;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+
+.weekly-item {
+    padding: 8px 2px;
+    display: flex;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgb(236, 232, 232);
+    align-items: center;
+}
+
+.weekly-item .song-number {
+    color: #999;
+    font-size: 16px;
+    padding: 4px 2px;
+}
+
+.weekly-item .content {
+    padding: 10px 16px;
+    flex-grow: 1;
+}
+
+.weekly-item .song-title {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.weekly-item .performance {
+    font-size: 12px;
+    color: #999;
+}
+
+.weekly-item .view-count {
+    color: #999;
+    font-size: 14px;
+}
+
+
+/* #2 */
+
+.component {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.song-inf .song-name {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.song-inf .singer {
+    font-size: 15px;
+    color: #aa1;
+    margin-bottom: 1px;
+}
+
+.song-inf .view-count {
+    color: #ccd;
+    font-size: 14px;
+}
+
+.album-cover {
+    margin-right: 12px;
+    height: 120px;
+    width: 120px;
+    /*   background-color: #ddd; */
+    background-image: url("https://loremflickr.com/320/240/cat");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-cover .overlay {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 7px 7px;
+    box-sizing: border-box;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.81) 0%, rgba(31, 30, 30, 0) 100%);
+}
