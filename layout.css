@@ -16,6 +16,7 @@ body {
     margin-bottom: 4px;
 } */
 
+
 .wrapper .header {
     grid-column: 1/3;
     text-align: center;
@@ -26,10 +27,17 @@ body {
     text-align: center;
 }
 
-.wrapper .right-content {
+.wrapper .all-corner {
     border-right: 120px solid rgba(241, 218, 204, 0.4);
+    border-left: 120px solid rgba(241, 218, 204, 0.4);
 }
 
-.wrapper .left-content {
-    border-left: 140px solid rgba(241, 218, 204, 0.4);
+.wrapper .all-corner .right-content {
+    padding: 70px 0px;
 }
+
+.wrapper .all-corner .left-content {
+    padding: 70px 0px;
+}
+
+
