@@ -13,7 +13,9 @@
     width: 140px;
     margin-right: 28px;
     /* background-color: #ddd; */
-    background-image: url("https://loremflickr.com/320/240/cat");
+    background-image: url("https://loremflickr.com/g/320/240/paris,girl/all");
+    background-size: cover;
+    background-position: center;
 }
 
 .far {

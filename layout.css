@@ -28,6 +28,10 @@ body {
 }
 
 .wrapper .all-corner {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 40px;
     border-right: 120px solid rgba(241, 218, 204, 0.4);
     border-left: 120px solid rgba(241, 218, 204, 0.4);
 }
